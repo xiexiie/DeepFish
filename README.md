@@ -2,7 +2,7 @@
 
 ## DeepFish (A Realistic Fish-Habitat Dataset to Evaluate Algorithms for Underwater Visual Analysis) 
 
-### Accepted at Nature Scientific Reports [[Paper]](https://www.nature.com/articles/s41598-020-71639-x)   
+### 论文链接 [[Paper]](https://www.nature.com/articles/s41598-020-71639-x)   
 
 ![CNN](docs/Figure_4.png)
 ![counting](docs/count.gif) 
@@ -16,7 +16,7 @@
 
 ## Download
 
-*  Download the DeepFish dataset from [here](https://cloudstor.aarnet.edu.au/plus/s/NfjObIhtUYO6332)
+*  数据集下载链接 [数据集](https://cloudstor.aarnet.edu.au/plus/s/NfjObIhtUYO6332)
 
 ## 1. Train and test on single image
 
@@ -53,17 +53,4 @@ The variables (`${...}`) can be substituted with the following values:
 
 Experiment hyperparameters are defined in `exp_configs.py`
 
-## Citations
 
-If you use the DeepFish dataset in your work, please cite it as:
-
-```
-@article{saleh2020realistic,
-    title={A Realistic Fish-Habitat Dataset to Evaluate Algorithms for Underwater Visual Analysis},
-    author={Alzayat Saleh and Issam H. Laradji and Dmitry A. Konovalov and Michael Bradley and David Vazquez and Marcus Sheaves},
-    year={2020},
-    eprint={2008.12603},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-```
