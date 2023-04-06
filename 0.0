@@ -1,0 +1,71 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting haven-ai
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/9c/5d/9046e5c20e401baf174e84e8fdcde968862d5949011dfc9c6c0977f3b744/haven_ai-0.6.7-py3-none-any.whl (92 kB)
+     -------------------------------------- 92.8/92.8 kB 441.3 kB/s eta 0:00:00
+Requirement already satisfied: torchvision>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (0.9.1+cu101)
+Requirement already satisfied: matplotlib>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (3.5.2)
+Collecting ipywidgets>=0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f3/fc/bd076538811d63babf8ceea0ff3d8d024171569a47f5dba7757c5fd0462c/ipywidgets-8.0.4-py3-none-any.whl (137 kB)
+     -------------------------------------- 137.8/137.8 kB 2.1 MB/s eta 0:00:00
+Collecting sklearn>=0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/db/1e/af4e9cded5093a92e60d4ae7149a02c7427661b2db66c8ea4d34b17864a2/sklearn-0.0.post1.tar.gz (3.6 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting jupyter>=0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Requirement already satisfied: numpy>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (1.23.5)
+Requirement already satisfied: scipy>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (1.10.0)
+Requirement already satisfied: scikit-image>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (0.19.3)
+Requirement already satisfied: pandas>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (1.5.2)
+Requirement already satisfied: scikit-learn>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (1.1.3)
+Collecting notebook>=4.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/be/9f/4312b5a9fd365cf76b7b7e740fc598747958973399df8c97675bfddcdb95/notebook-6.5.3-py3-none-any.whl (529 kB)
+     -------------------------------------- 529.7/529.7 kB 2.0 MB/s eta 0:00:00
+Collecting opencv-python-headless>=0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/31/4b/15d990b72661b70005ac0a63fb2da778391a503ab88e53f4d45949f898ed/opencv_python_headless-4.7.0.72-cp37-abi3-win_amd64.whl (38.1 MB)
+     ---------------------------------------- 38.1/38.1 MB 2.9 MB/s eta 0:00:00
+Requirement already satisfied: tqdm>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (4.64.1)
+Requirement already satisfied: Pillow>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (9.2.0)
+Requirement already satisfied: torch>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (1.8.1+cu101)
+Requirement already satisfied: requests>=0.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from haven-ai) (2.28.1)
+Collecting jupyterlab-widgets~=3.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/df/82/4576cbc07ebace8c7734fe08b2c2f9123b7ebecd29e932a3b839b6bee2cb/jupyterlab_widgets-3.0.5-py3-none-any.whl (384 kB)
+     -------------------------------------- 384.3/384.3 kB 1.0 MB/s eta 0:00:00
+Collecting ipykernel>=4.5.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a3/a0/647c0f205f9ef730bcb05bb8e1087e0c86d44835fc1f248dd67f01edd6fc/ipykernel-6.21.3-py3-none-any.whl (149 kB)
+     -------------------------------------- 149.4/149.4 kB 4.5 MB/s eta 0:00:00
+Collecting widgetsnbextension~=4.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c2/1a/73574f7194184c8670b804171d7f43f56c586e5f8142a41f7a53f0998b6b/widgetsnbextension-4.0.5-py3-none-any.whl (2.0 MB)
+     ---------------------------------------- 2.0/2.0 MB 3.7 MB/s eta 0:00:00
+Requirement already satisfied: ipython>=6.1.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from ipywidgets>=0.0->haven-ai) (8.10.0)
+Requirement already satisfied: traitlets>=4.3.1 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from ipywidgets>=0.0->haven-ai) (5.7.1)
+Collecting jupyter-console
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ca/77/71d78d58f15c22db16328a476426f7ac4a60d3a5a7ba3b9627ee2f7903d4/jupyter_console-6.6.3-py3-none-any.whl (24 kB)
+Collecting nbconvert
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3f/53/1e99001bc154bd2d243564275e2b7a0e492b48ae032b1377f35cc9defa16/nbconvert-7.2.10-py3-none-any.whl (275 kB)
+     -------------------------------------- 275.2/275.2 kB 2.8 MB/s eta 0:00:00
+Collecting qtconsole
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a4/33/756fadbc52ae72ce3e79ab856d7ce1181082b5f2d6d735e16f6cbff7c388/qtconsole-5.4.1-py3-none-any.whl (120 kB)
+     -------------------------------------- 120.9/120.9 kB 1.8 MB/s eta 0:00:00
+Requirement already satisfied: pyparsing>=2.2.1 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from matplotlib>=0.0->haven-ai) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from matplotlib>=0.0->haven-ai) (2.8.2)
+Requirement already satisfied: kiwisolver>=1.0.1 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from matplotlib>=0.0->haven-ai) (1.4.2)
+Requirement already satisfied: fonttools>=4.22.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from matplotlib>=0.0->haven-ai) (4.25.0)
+Requirement already satisfied: packaging>=20.0 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from matplotlib>=0.0->haven-ai) (21.3)
+Requirement already satisfied: cycler>=0.10 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from matplotlib>=0.0->haven-ai) (0.11.0)
+Collecting terminado>=0.8.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/84/a7/c7628d79651b8c8c775d27b374315a825141b5783512e82026fb210dd639/terminado-0.17.1-py3-none-any.whl (17 kB)
+Collecting jupyter-client>=5.3.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/78/11/562517956f801607c4f7855ebf8c545e9a9f62ef936f0da1bdec9cd1a7aa/jupyter_client-8.0.3-py3-none-any.whl (102 kB)
+     -------------------------------------- 102.7/102.7 kB 5.8 MB/s eta 0:00:00
+Collecting nest-asyncio>=1.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e9/1a/6dd9ec31cfdb34cef8fea0055b593ee779a6f63c8e8038ad90d71b7f53c0/nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting nbformat
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/21/ad/020fed74bfde983a3b70cc95843d6adbe59171aa9a3da5aab403aa722a17/nbformat-5.7.3-py3-none-any.whl (78 kB)
+     ---------------------------------------- 78.1/78.1 kB 4.2 MB/s eta 0:00:00
+Requirement already satisfied: tornado>=6.1 in d:\anaconda3\envs\pytorch1.8\lib\site-packages (from notebook>=4.0->haven-ai) (6.2)
+Collecting Send2Trash>=1.8.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/47/26/3435896d757335ea53dce5abf8d658ca80757a7a06258451b358f10232be/Send2Trash-1.8.0-py3-none-any.whl (18 kB)
+Collecting nbclassic>=0.4.7
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ff/73/c64228a1f88ef6352a3839a866cc8951b16d0db653ec8d9c5160e6a11dac/nbclassic-0.5.3-py3-none-any.whl (10.0 MB)
+     ------------------------------           7.6/10.0 MB 2.3 MB/s eta 0:00:02
